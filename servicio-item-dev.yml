@@ -1,5 +1,5 @@
 configuracion:
-  texto: Configurando ambiente por defecto
+  texto: Configurando entorno de Desarrollo
   autor:
-    nombre: jlo
-    email: jorge@correo.com
+    nombre: Jhon Doe
+    email: jhon.doe@correo.com
