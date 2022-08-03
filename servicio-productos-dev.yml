@@ -1,0 +1,16 @@
+spring:  
+  datasource:
+    url: jdbc:sqlserver://192.200.0.31:1433;DatabaseName=almacen;encrypt=false
+    username: jlo
+    password: 307327257
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    database: SQL_SERVER
+    show-sql : true
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        dialect : org.hibernate.dialect.SQLServer2012Dialect
